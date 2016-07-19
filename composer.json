@@ -1,0 +1,22 @@
+{
+	"name": "milessummers/silverstripe-dompdf",
+	"description": "A SS wrapper for dompdf",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "pdf"],
+	"homepage": "http://github.com/MilesSummers/silverstripe-dompdf",
+	"authors": [
+		{
+		"name": "Shea Dawson",
+		"email": "shea@silverstripe.com.au"
+		}
+	],
+	"require":
+	{
+		"composer/installers": "*",
+		"silverstripe/framework": "~3.3.2",
+		"silverstripe/cms": "~3.3.2"
+	},
+	"extra": {
+		"installer-name": "dompdf"
+	}
+}
